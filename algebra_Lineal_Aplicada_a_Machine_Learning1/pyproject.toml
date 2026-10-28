@@ -1,0 +1,18 @@
+[project]
+name = "algebra-lineal-aplicada-a-machine-learning1"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "dapt4",email = "diegodapt18@gmail.com"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "jupyterlab (>=4.6.4,<5.0.0)",
+    "numpy (>=2.5.4,<3.0.0)",
+    "matplotlib (>=3.11.2,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
